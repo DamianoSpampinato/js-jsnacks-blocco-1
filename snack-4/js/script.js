@@ -8,3 +8,5 @@ for(let i = 0; i < numberArray.length; i++){
 
 
 }
+let avarage = sumNotGpt / numberArray.length;
+console.log(avarage)
