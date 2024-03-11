@@ -3,3 +3,11 @@
 
 const numberArray = [15, 10, 19, 21, 22, 13];
 
+for(let i = 0; i < 5; i++){
+    let userNumber = parseInt(prompt('inscerisci un numero'));
+    if (!numberArray.includes(userNumber)){
+        numberArray.push(userNumber)
+        console.log(numberArray)
+    }
+
+}
